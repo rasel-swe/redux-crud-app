@@ -1,0 +1,168 @@
+/* Reset and general styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+}
+
+/* Body styles */
+body {
+  background-color: #F7F7F7;
+  color: #333;
+}
+
+/* Navigation styles */
+nav {
+  background-color: white;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(7, 6, 6, 0.2);
+}
+
+/* Navigation links */
+.nav-link {
+  color: black;
+  margin-right: 40px;
+  font-size: 16px;
+  transition: all 0.3s;
+}
+
+/* Active navigation link */
+.nav-link.active {
+  color: red;
+  text-decoration: underline;
+}
+
+/* Hover effect on navigation links */
+.nav-link:hover {
+  color: red;
+}
+
+/* Main content styles */
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+/* Header 2 styles */
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Table styles */
+table {
+  margin: 30px;
+  border-collapse: collapse;
+  width: 90%;
+  max-width: 800px;
+  border: 2px solid #e0e0e0;
+}
+
+/* Table header styles */
+th {
+  border: 1px solid #ccc;
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+  background-color: #e0e0e0;
+}
+
+/* Table data styles */
+td {
+  border: 1px solid #ccc;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Alternate row background color */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Hover effect on table rows */
+tr:hover {
+  background-color: #e0e0e0;
+}
+
+/* Add a border radius to the table */
+table {
+  border-radius: 10px;
+}
+
+/* Button styles */
+button {
+  text-align: center;
+  width: 80px;
+  padding: 10px;
+  margin: 5px;
+  background-color: #e36767;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Additional button styles */
+.addButtonDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addBookButton {
+  width: 90%;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #333;
+}
+
+/* Form styles */
+.form-field {
+  margin: 20px;
+}
+
+/* Input styles */
+input {
+  width: 100%;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(7, 6, 6, 0.2);
+}
+
+/* Footer styles */
+footer {
+  background-color: rgb(53, 50, 50);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: #fff;
+  box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer paragraph styles */
+footer p {
+  font-size: 12px;
+}
