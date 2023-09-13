@@ -1,4 +1,4 @@
-# React + Vite
+[Click Here to see the live project](https://sensational-truffle-dc9efa.netlify.app/)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
